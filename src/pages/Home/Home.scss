@@ -1,0 +1,11 @@
+.Home {
+  display: flex;
+  .sideBarComponent {
+    position: relative;
+    width: 30%;
+    height: 100vh;
+  }
+  .postContainer {
+    width: 70%;
+  }
+}

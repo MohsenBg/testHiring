@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou&family=ZCOOL+XiaoWei&display=swap");
+.postContainer {
+  width: 100%;
+  height: 100%;
+
+  .titlePost {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 25px;
+    font-family: "ZCOOL XiaoWei", serif;
+    margin-bottom: 1em;
+    text-shadow: 2px 2px 1px rgb(160, 91, 91);
+  }
+  .cardPostContainer {
+    .linkCard {
+      color: unset;
+      text-decoration: none;
+      .cardPost {
+        margin: 10px 30px;
+        padding: 10px 0 10px 10px;
+        background-color: white;
+        box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.507);
+        margin-top: 20px;
+        .titleCard {
+          text-align: center;
+          margin-bottom: 1em;
+          font-family: "ZCOOL XiaoWei", serif;
+          font-size: 20px;
+        }
+        .postText {
+          font-family: "ZCOOL QingKe HuangYou", cursive;
+          font-size: 18px;
+        }
+      }
+      &:last-child {
+        margin-bottom: 40px;
+      }
+    }
+  }
+}

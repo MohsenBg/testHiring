@@ -1,0 +1,7 @@
+export enum ActionType {
+  ON_LOAD = "ON_LOAD",
+  END_LOAD = "END_LOAD",
+  STORE_DATA = "STORE_DATA",
+  ERROR = "ERROR",
+  USER_SELECTED = "USER_SELECTED",
+}
